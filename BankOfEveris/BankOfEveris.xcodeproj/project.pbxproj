@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43FF4704226602DE00A5CAA9 /* UserExtractTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FF4702226602DE00A5CAA9 /* UserExtractTableViewCell.swift */; };
+		43FF4705226602DE00A5CAA9 /* UserExtractTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43FF4703226602DE00A5CAA9 /* UserExtractTableViewCell.xib */; };
+		43FF470722660C4700A5CAA9 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FF470622660C4700A5CAA9 /* Double+Extensions.swift */; };
+		43FF87462260D90200B892B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FF87452260D90200B892B2 /* AppDelegate.swift */; };
+		43FF87482260D90200B892B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FF87472260D90200B892B2 /* ViewController.swift */; };
+		43FF874B2260D90200B892B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43FF87492260D90200B892B2 /* Main.storyboard */; };
+		43FF874D2260D90300B892B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43FF874C2260D90300B892B2 /* Assets.xcassets */; };
+		43FF87502260D90300B892B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43FF874E2260D90300B892B2 /* LaunchScreen.storyboard */; };
+		43FF87602260DAC400B892B2 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FF875F2260DAC400B892B2 /* String+Extensions.swift */; };
+		43FF87682260DB3500B892B2 /* UserLoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FF87622260DB3500B892B2 /* UserLoginPresenter.swift */; };
+		43FF87692260DB3500B892B2 /* UserLoginWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FF87632260DB3500B892B2 /* UserLoginWorker.swift */; };
+		43FF876A2260DB3500B892B2 /* UserLoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FF87642260DB3500B892B2 /* UserLoginRouter.swift */; };
+		43FF876B2260DB3500B892B2 /* UserLoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FF87652260DB3500B892B2 /* UserLoginModels.swift */; };
+		43FF876C2260DB3500B892B2 /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FF87662260DB3500B892B2 /* UserLoginViewController.swift */; };
+		43FF876D2260DB3500B892B2 /* UserLoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FF87672260DB3500B892B2 /* UserLoginInteractor.swift */; };
+		43FF87752260F2D500B892B2 /* UserExtractPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FF876F2260F2D500B892B2 /* UserExtractPresenter.swift */; };
+		43FF87762260F2D500B892B2 /* UserExtractWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FF87702260F2D500B892B2 /* UserExtractWorker.swift */; };
+		43FF87772260F2D500B892B2 /* UserExtractRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FF87712260F2D500B892B2 /* UserExtractRouter.swift */; };
+		43FF87782260F2D500B892B2 /* UserExtractModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FF87722260F2D500B892B2 /* UserExtractModels.swift */; };
+		43FF87792260F2D500B892B2 /* UserExtractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FF87732260F2D500B892B2 /* UserExtractViewController.swift */; };
+		43FF877A2260F2D500B892B2 /* UserExtractInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FF87742260F2D500B892B2 /* UserExtractInteractor.swift */; };
+		82F25B28A1633259195FA8A6 /* Pods_BankOfEveris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973DC6C85D82EFD772422811 /* Pods_BankOfEveris.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43FF4702226602DE00A5CAA9 /* UserExtractTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserExtractTableViewCell.swift; sourceTree = "<group>"; };
+		43FF4703226602DE00A5CAA9 /* UserExtractTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserExtractTableViewCell.xib; sourceTree = "<group>"; };
+		43FF470622660C4700A5CAA9 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		43FF87422260D90200B892B2 /* BankOfEveris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankOfEveris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43FF87452260D90200B892B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43FF87472260D90200B892B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43FF874A2260D90200B892B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43FF874C2260D90300B892B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43FF874F2260D90300B892B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43FF87512260D90300B892B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43FF875F2260DAC400B892B2 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		43FF87622260DB3500B892B2 /* UserLoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginPresenter.swift; sourceTree = "<group>"; };
+		43FF87632260DB3500B892B2 /* UserLoginWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginWorker.swift; sourceTree = "<group>"; };
+		43FF87642260DB3500B892B2 /* UserLoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginRouter.swift; sourceTree = "<group>"; };
+		43FF87652260DB3500B892B2 /* UserLoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginModels.swift; sourceTree = "<group>"; };
+		43FF87662260DB3500B892B2 /* UserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
+		43FF87672260DB3500B892B2 /* UserLoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginInteractor.swift; sourceTree = "<group>"; };
+		43FF876F2260F2D500B892B2 /* UserExtractPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserExtractPresenter.swift; sourceTree = "<group>"; };
+		43FF87702260F2D500B892B2 /* UserExtractWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserExtractWorker.swift; sourceTree = "<group>"; };
+		43FF87712260F2D500B892B2 /* UserExtractRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserExtractRouter.swift; sourceTree = "<group>"; };
+		43FF87722260F2D500B892B2 /* UserExtractModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserExtractModels.swift; sourceTree = "<group>"; };
+		43FF87732260F2D500B892B2 /* UserExtractViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserExtractViewController.swift; sourceTree = "<group>"; };
+		43FF87742260F2D500B892B2 /* UserExtractInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserExtractInteractor.swift; sourceTree = "<group>"; };
+		973DC6C85D82EFD772422811 /* Pods_BankOfEveris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankOfEveris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8FF55469D737B4BA6C057D7 /* Pods-BankOfEveris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankOfEveris.release.xcconfig"; path = "Target Support Files/Pods-BankOfEveris/Pods-BankOfEveris.release.xcconfig"; sourceTree = "<group>"; };
+		F3857D6F92D9E110022F89F0 /* Pods-BankOfEveris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankOfEveris.debug.xcconfig"; path = "Target Support Files/Pods-BankOfEveris/Pods-BankOfEveris.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43FF873F2260D90200B892B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F25B28A1633259195FA8A6 /* Pods_BankOfEveris.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43FF47012266026600A5CAA9 /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				43FF4702226602DE00A5CAA9 /* UserExtractTableViewCell.swift */,
+				43FF4703226602DE00A5CAA9 /* UserExtractTableViewCell.xib */,
+			);
+			path = ViewCell;
+			sourceTree = "<group>";
+		};
+		43FF87392260D90200B892B2 = {
+			isa = PBXGroup;
+			children = (
+				43FF87442260D90200B892B2 /* BankOfEveris */,
+				FF9EDE40621DAD545A09D210 /* Pods */,
+				4AE28F5980F83A32409B0BBD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		43FF87432260D90200B892B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43FF87422260D90200B892B2 /* BankOfEveris.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		43FF87442260D90200B892B2 /* BankOfEveris */ = {
+			isa = PBXGroup;
+			children = (
+				43FF875A2260D9E100B892B2 /* Models */,
+				43FF87592260D9B300B892B2 /* Extesions */,
+				43FF87582260D9AB00B892B2 /* Scenes */,
+				43FF87572260D99A00B892B2 /* View */,
+				43FF87452260D90200B892B2 /* AppDelegate.swift */,
+				43FF87472260D90200B892B2 /* ViewController.swift */,
+				43FF874C2260D90300B892B2 /* Assets.xcassets */,
+				43FF87512260D90300B892B2 /* Info.plist */,
+				43FF87432260D90200B892B2 /* Products */,
+			);
+			path = BankOfEveris;
+			sourceTree = "<group>";
+		};
+		43FF87572260D99A00B892B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				43FF874E2260D90300B892B2 /* LaunchScreen.storyboard */,
+				43FF87492260D90200B892B2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		43FF87582260D9AB00B892B2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				43FF876E2260F21A00B892B2 /* UserExtract */,
+				43FF87612260DAFD00B892B2 /* UserLogin */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		43FF87592260D9B300B892B2 /* Extesions */ = {
+			isa = PBXGroup;
+			children = (
+				43FF875F2260DAC400B892B2 /* String+Extensions.swift */,
+				43FF470622660C4700A5CAA9 /* Double+Extensions.swift */,
+			);
+			path = Extesions;
+			sourceTree = "<group>";
+		};
+		43FF875A2260D9E100B892B2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		43FF87612260DAFD00B892B2 /* UserLogin */ = {
+			isa = PBXGroup;
+			children = (
+				43FF87622260DB3500B892B2 /* UserLoginPresenter.swift */,
+				43FF87632260DB3500B892B2 /* UserLoginWorker.swift */,
+				43FF87642260DB3500B892B2 /* UserLoginRouter.swift */,
+				43FF87652260DB3500B892B2 /* UserLoginModels.swift */,
+				43FF87662260DB3500B892B2 /* UserLoginViewController.swift */,
+				43FF87672260DB3500B892B2 /* UserLoginInteractor.swift */,
+			);
+			path = UserLogin;
+			sourceTree = "<group>";
+		};
+		43FF876E2260F21A00B892B2 /* UserExtract */ = {
+			isa = PBXGroup;
+			children = (
+				43FF47012266026600A5CAA9 /* ViewCell */,
+				43FF876F2260F2D500B892B2 /* UserExtractPresenter.swift */,
+				43FF87702260F2D500B892B2 /* UserExtractWorker.swift */,
+				43FF87712260F2D500B892B2 /* UserExtractRouter.swift */,
+				43FF87722260F2D500B892B2 /* UserExtractModels.swift */,
+				43FF87732260F2D500B892B2 /* UserExtractViewController.swift */,
+				43FF87742260F2D500B892B2 /* UserExtractInteractor.swift */,
+			);
+			path = UserExtract;
+			sourceTree = "<group>";
+		};
+		4AE28F5980F83A32409B0BBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				973DC6C85D82EFD772422811 /* Pods_BankOfEveris.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF9EDE40621DAD545A09D210 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3857D6F92D9E110022F89F0 /* Pods-BankOfEveris.debug.xcconfig */,
+				A8FF55469D737B4BA6C057D7 /* Pods-BankOfEveris.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43FF87412260D90200B892B2 /* BankOfEveris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43FF87542260D90300B892B2 /* Build configuration list for PBXNativeTarget "BankOfEveris" */;
+			buildPhases = (
+				839F14BBA5918325C7A70B49 /* [CP] Check Pods Manifest.lock */,
+				43FF873E2260D90200B892B2 /* Sources */,
+				43FF873F2260D90200B892B2 /* Frameworks */,
+				43FF87402260D90200B892B2 /* Resources */,
+				E52E5977BA2CFF710701DF92 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankOfEveris;
+			productName = BankOfEveris;
+			productReference = 43FF87422260D90200B892B2 /* BankOfEveris.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43FF873A2260D90200B892B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Leandro Roberto Medeiros";
+				TargetAttributes = {
+					43FF87412260D90200B892B2 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 43FF873D2260D90200B892B2 /* Build configuration list for PBXProject "BankOfEveris" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43FF87392260D90200B892B2;
+			productRefGroup = 43FF87432260D90200B892B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43FF87412260D90200B892B2 /* BankOfEveris */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43FF87402260D90200B892B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43FF87502260D90300B892B2 /* LaunchScreen.storyboard in Resources */,
+				43FF874D2260D90300B892B2 /* Assets.xcassets in Resources */,
+				43FF4705226602DE00A5CAA9 /* UserExtractTableViewCell.xib in Resources */,
+				43FF874B2260D90200B892B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		839F14BBA5918325C7A70B49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BankOfEveris-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E52E5977BA2CFF710701DF92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BankOfEveris/Pods-BankOfEveris-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BankOfEveris/Pods-BankOfEveris-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43FF873E2260D90200B892B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43FF87482260D90200B892B2 /* ViewController.swift in Sources */,
+				43FF87782260F2D500B892B2 /* UserExtractModels.swift in Sources */,
+				43FF87692260DB3500B892B2 /* UserLoginWorker.swift in Sources */,
+				43FF87602260DAC400B892B2 /* String+Extensions.swift in Sources */,
+				43FF87752260F2D500B892B2 /* UserExtractPresenter.swift in Sources */,
+				43FF470722660C4700A5CAA9 /* Double+Extensions.swift in Sources */,
+				43FF877A2260F2D500B892B2 /* UserExtractInteractor.swift in Sources */,
+				43FF4704226602DE00A5CAA9 /* UserExtractTableViewCell.swift in Sources */,
+				43FF876A2260DB3500B892B2 /* UserLoginRouter.swift in Sources */,
+				43FF87772260F2D500B892B2 /* UserExtractRouter.swift in Sources */,
+				43FF87462260D90200B892B2 /* AppDelegate.swift in Sources */,
+				43FF87682260DB3500B892B2 /* UserLoginPresenter.swift in Sources */,
+				43FF876B2260DB3500B892B2 /* UserLoginModels.swift in Sources */,
+				43FF876D2260DB3500B892B2 /* UserLoginInteractor.swift in Sources */,
+				43FF87792260F2D500B892B2 /* UserExtractViewController.swift in Sources */,
+				43FF87762260F2D500B892B2 /* UserExtractWorker.swift in Sources */,
+				43FF876C2260DB3500B892B2 /* UserLoginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43FF87492260D90200B892B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43FF874A2260D90200B892B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43FF874E2260D90300B892B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43FF874F2260D90300B892B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43FF87522260D90300B892B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43FF87532260D90300B892B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43FF87552260D90300B892B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3857D6F92D9E110022F89F0 /* Pods-BankOfEveris.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BankOfEveris/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leandro.BankOfEveris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43FF87562260D90300B892B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8FF55469D737B4BA6C057D7 /* Pods-BankOfEveris.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BankOfEveris/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leandro.BankOfEveris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43FF873D2260D90200B892B2 /* Build configuration list for PBXProject "BankOfEveris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43FF87522260D90300B892B2 /* Debug */,
+				43FF87532260D90300B892B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43FF87542260D90300B892B2 /* Build configuration list for PBXNativeTarget "BankOfEveris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43FF87552260D90300B892B2 /* Debug */,
+				43FF87562260D90300B892B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43FF873A2260D90200B892B2 /* Project object */;
+}
